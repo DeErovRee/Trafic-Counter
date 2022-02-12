@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    height: 25vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container-btn {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+span {
+    font-size: 100px;
+    padding: 10px;
+}
+
+.btn {
+    background: red;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-repeat: 10px;
+    margin: 5px;
+}
